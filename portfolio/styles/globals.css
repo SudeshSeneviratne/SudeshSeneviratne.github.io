@@ -1,0 +1,32 @@
+/* ...existing code... */
+
+/* Gradient Button Styles */
+.gradient-button {
+  background: linear-gradient(90deg, #4F46E5 0%, #8B5CF6 100%);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.gradient-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(79, 70, 229, 0.3);
+}
+
+.gradient-button-variant {
+  background: linear-gradient(90deg, #8B5CF6 0%, #EC4899 100%);
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: rgba(23, 23, 23, 0.8);
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+.navbar-scrolled {
+  background-color: rgba(23, 23, 23, 0.95);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+/* ...existing code... */
